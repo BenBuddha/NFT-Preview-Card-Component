@@ -1,0 +1,17 @@
+html {
+  font-size: 10px; 
+  background-color:hsl(217, 54%, 11%);
+}
+
+main {
+ 
+  height: 200px;
+  max-width: 30rem;
+  margin: 15rem auto;
+  padding: 3rem 1.6rem 6rem 1.6rem;
+  background: hsl(216, 50%, 16%);
+  border-radius: 1.7rem;
+  box-shadow: 0px 9px 7px 10px rgba(9, 23, 43, 0.75);
+  -webkit-box-shadow: 0px 9px 7px 10px rgba(9, 23, 43, 0.75);
+  -moz-box-shadow: 0px 9px 7px 10px rgba(9, 23, 43, 0.75);
+}
