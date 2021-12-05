@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <!-- Live page: https://benbuddha.github.io/NFT-Preview-Card-Component/ -->
 </head>
 <body>
-    <main id="contaner">
-        <img src="" alt="">
-        <h2 class="item-name">Equilibrium #3429</h2>
-        <p class="descript">Our equilibrium collection promotes balance and calm.</p>
+    <main id="container">
+        <div class="hover-view">
+            <img src="./images/icon-view.svg" alt="">
+        </div>
+        <a href=""><div class="big"></div></a>
+        <h3><a class="item-name" href="">Equilibrium #3429</a></h3>
+        <p>Our equilibrium collection promotes balance and calm.</p>
+        
+        <div class="price-row">
+            <div class="row1">
+                <img class="svg-icons" src="images/icon-ethereum.svg" alt="">
+                <p class="eth">0.041 ETH</p>
+            </div>
+            <div class="row2">
+                <img class="svg-icons" src="images/icon-clock.svg" alt="">
+                <p class="days">3 days left</p>
+            </div>
+        </div>
+        <hr>
+        <div class="creator">
+            <img class="profile" src="images/image-avatar.png" alt="">
+            <p class="profiletxt">Creation of</p>
+            <a class="name" href="">Jules Wyvern</a>
+        </div>
     </main>
 </body>
 </html>
